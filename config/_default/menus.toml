@@ -29,11 +29,11 @@
   url = "#working_papers"
   weight = 40
   
-[[main]]
-  name = "Conference Papers"
-  parent = "pubs"
-  url = "#conf_papers"
-  weight = 42
+# [[main]]
+#  name = "Conference Papers"
+#  parent = "pubs"
+#  url = "#conf_papers"
+#  weight = 42
 
 # [[main]]
 #  name = "Tutorials"
