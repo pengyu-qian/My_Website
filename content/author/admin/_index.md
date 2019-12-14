@@ -77,7 +77,7 @@ user_groups = ["Researchers", "Visitors"]
 
 +++
 
-I am a 4th year Ph.D. student in the Decision, Risk and Operations division at Columbia Business School. I am very fortunate to be advised by [Yash Kanoria](http://www.columbia.edu/~yk2577/).
+I am a 5th year Ph.D. student in the Decision, Risk and Operations division at Columbia Business School. I am very fortunate to be advised by [Yash Kanoria](http://www.columbia.edu/~yk2577/).
 
 My research interest lies in the optimal control of **stochastic networks**, including those that arise in **marketplaces** such as ride-hailing platforms.
 
