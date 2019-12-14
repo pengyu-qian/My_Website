@@ -6,7 +6,7 @@ date = 2019-03-07
 authors = ["Y. Kanoria", "Pengyu Qian"]
 
 authorinfo = "with Y. Kanoria"
-versioninfo = "Mar 2019"
+versioninfo = "2019"
 
 # Publication type.
 # Legend:
