@@ -36,7 +36,7 @@ user_groups = ["Researchers", "Visitors"]
 [[education.courses]]
   course = "Ph.D. in Decision, Risk and Operations (expected)"
   institution = "Columbia University"
-  year = 2020
+  year = 2021
 
 [[education.courses]]
   course = "B.S. in Mathematics"
