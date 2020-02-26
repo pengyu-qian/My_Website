@@ -13,7 +13,7 @@ role = "Ph.D. Student of Decision, Risk and Operations"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Columbia University, Graduate School of Business", url = "https://www8.gsb.columbia.edu/faculty-research/divisions/decision-risk-operations" } ]
+organizations = [ { name = "Graduate School of Business, Columbia University", url = "https://www8.gsb.columbia.edu/faculty-research/divisions/decision-risk-operations" } ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = ""
