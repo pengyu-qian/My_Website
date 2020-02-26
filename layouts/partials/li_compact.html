@@ -43,8 +43,8 @@
 	</div>
 	
 	{{ if $item.Params.confinfo }}
-	<div>
-	<span style="padding-left:20px"><font size="4">Preliminary version: <i>{{ $item.Params.confinfo }}</i> {{ $item.Params.confyear }}</font>
+	<div style="margin-left:20px;">
+	<font size="4">Preliminary version: <i>{{ $item.Params.confinfo }}</i> {{ $item.Params.confyear }}</font>
 	</div>
 	{{ end }}
     
@@ -89,8 +89,8 @@
 	-->
 
     {{ if $show_buttons }}
-    <div class="btn-links">
-      <span style="padding-left:20px">{{ partial "page_links" (dict "content" $item "is_list" 1) }}
+    <div class="btn-links" style="margin-left:20px;">
+      {{ partial "page_links" (dict "content" $item "is_list" 1) }}
     </div>
     {{ end }}
 
