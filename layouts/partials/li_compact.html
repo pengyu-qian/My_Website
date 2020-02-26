@@ -38,8 +38,8 @@
     <b>{{ $item.Params.journalno }}.</b> <a href="{{ $item.Params.url_pdf }}" style="color:rgb(0, 114, 206);">{{ $item.Title }}</a>
     </font>
 	
-	<div>
-	<span style="padding-left:20px"><font size="4">{{ $item.Params.authorinfo }}, {{ $item.Params.versioninfo }} <i>{{ $item.Params.journalinfo }}</i></font>
+	<div style="margin-left:20px;">
+	<font size="4">{{ $item.Params.authorinfo }}, {{ $item.Params.versioninfo }} <i>{{ $item.Params.journalinfo }}</i></font>
 	</div>
 	
 	{{ if $item.Params.confinfo }}
