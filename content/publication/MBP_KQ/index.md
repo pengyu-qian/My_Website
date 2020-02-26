@@ -57,7 +57,7 @@ projects = []
 slides = ""
 
 # Links (optional).
-url_pdf = "pdf/MBP_KQ.pdf"
+url_pdf = "pdf/MBP_KQ_2020.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
