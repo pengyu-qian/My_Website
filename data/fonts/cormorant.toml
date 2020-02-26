@@ -8,7 +8,7 @@ name = "cormorant"
 heading_font = "Montserrat"
 body_font = "Cormorant"
 nav_font = "Roboto"
-mono_font = "Roboto Mono"
+mono_font = "Cormorant"
 
 # Font size
 font_size = "20"
