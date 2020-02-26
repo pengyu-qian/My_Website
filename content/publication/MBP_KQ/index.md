@@ -1,12 +1,13 @@
 +++
-title = "Near Optimal Control of a Ride-Hailing Platform via Mirror Backpressure"
+title = "Blind Dynamic Control of a Closed Network via Mirror Backpressure"
 date = 2019-03-07
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Y. Kanoria", "Pengyu Qian"]
 
 authorinfo = "with Y. Kanoria"
-versioninfo = "2019"
+versioninfo = "manuscript (2019)"
+journalno = "2"
 
 # Publication type.
 # Legend:
