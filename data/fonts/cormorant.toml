@@ -2,13 +2,13 @@
 name = "cormorant"
 
 # Optional Google font URL
-google_fonts = "Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono|Cormorant"
+google_fonts = "Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono|Cormorant|PT+Serif"
 
 # Font families
 heading_font = "Montserrat"
-body_font = "Cormorant"
+body_font = "PT Serif"
 nav_font = "Roboto"
-mono_font = "Cormorant"
+mono_font = "PT Serif"
 
 # Font size
 font_size = "20"
