@@ -6,7 +6,7 @@ date = 2020-02-12
 authors = ["Y. Kanoria", "Seungki Min", "Pengyu Qian"]
 
 authorinfo = "with Y. Kanoria and S. Min"
-versioninfo = "Manuscript coming soon!"
+versioninfo = "manuscript coming soon!"
 journalno = "3"
 
 # Publication type.
