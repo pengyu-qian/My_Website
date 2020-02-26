@@ -28,7 +28,7 @@ publication_short = ""
 abstract = ""
 
 # Summary. An optional shortened abstract.
-summary = ""
+summary = "We study the problem of maximizing payoff generated over a period of time in a general class of closed queueing networks with finite, fixed number of supply units which circulate in the system."
 
 # Digital Object Identifier (DOI)
 doi = ""
