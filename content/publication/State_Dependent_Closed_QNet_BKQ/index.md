@@ -28,7 +28,7 @@ publication = ""
 publication_short = ""
 
 # Abstract.
-abstract = ""
+abstract = "Abstract"
 
 # Summary. An optional shortened abstract.
 summary = ""
