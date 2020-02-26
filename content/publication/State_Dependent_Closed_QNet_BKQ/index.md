@@ -6,7 +6,8 @@ date = 2018-03-13
 authors = ["S. Banerjee", "Y. Kanoria", "Pengyu Qian"]
 
 authorinfo = "with S. Banerjee and Y. Kanoria"
-versioninfo = "major revision at Operations Research"
+versioninfo = "major revision at"
+journalinfo = "Operations Research"
 confinfo = "ACM SIGMETRICS 2018"
 
 # Publication type.
