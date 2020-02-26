@@ -10,6 +10,7 @@ versioninfo = "major revision in"
 journalinfo = "Operations Research"
 confinfo = "ACM SIGMETRICS"
 confyear = "2018"
+journalno = "1"
 
 # Publication type.
 # Legend:
