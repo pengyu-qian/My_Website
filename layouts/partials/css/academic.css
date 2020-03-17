@@ -1995,7 +1995,7 @@ div.alert div > :last-child {
   margin-bottom: 0;
 }
 
-/*
+
 div.alert > div:first-child::before {
   position: absolute;
   top: -0.5rem;
@@ -2004,7 +2004,8 @@ div.alert > div:first-child::before {
   color: #209cee;
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
-  content: '\f05a';
+  content: '';
+  /* content: '\f05a'; */
   width: 1.5rem;
   text-align: center;
 }
@@ -2015,7 +2016,7 @@ div.alert-warning > div:first-child::before {
   color: #ff3860;
   content: '\f071';
 }
-*/
+
 
 div.alert a {
   color: currentColor;
