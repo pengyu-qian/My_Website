@@ -95,6 +95,13 @@
       {{ partial "page_links" (dict "content" $item "is_list" 1) }}
     </div>
     {{ end }}
+    
+    {{ if $item.Params.absinfo }}
+	  <div style="margin-left:20px;">
+	  <font size="4">Abstract: {{ $item.Params.absinfo }}</font>
+	  </div>
+	  {{ end }}
+        
 
   </div>
   <div class="ml-3">
