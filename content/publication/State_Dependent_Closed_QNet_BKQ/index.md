@@ -11,6 +11,7 @@ journalinfo = "Operations Research"
 confinfo = "ACM SIGMETRICS"
 confyear = "2018"
 journalno = "1"
+absinfo = "abstract"
 
 # Publication type.
 # Legend:
