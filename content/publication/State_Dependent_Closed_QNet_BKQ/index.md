@@ -11,6 +11,7 @@ journalinfo = "Operations Research"
 confinfo = "ACM SIGMETRICS"
 confyear = "2018"
 journalno = "1"
+absinfo = "We study the state dependent control for a closed queueing network model inspired by ridesharing systems. The platform can choose which supply unit to assign to an incoming customer; the unit becomes available again at customer's destination. The platform aims to minimize proportion of dropped demand. We propose a family of simple policies called Scaled MaxWeight (SMW) and prove that under complete resource pooling (analogous to Hall's condition), any SMW policy induces an exponential decay of demand-drop probability as the number of supply units goes to infinity. We further show that there is an SMW policy that achieves the optimal exponent among all assignment policies and specify it analytically. We also propose data-driven approaches for designing SMW policies and demonstrate excellent performance in simulations based on the NYC taxi dataset."
 
 # Publication type.
 # Legend:
