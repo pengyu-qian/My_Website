@@ -8,7 +8,7 @@ authors = ["Y. Kanoria", "Pengyu Qian"]
 authorinfo = "with Y. Kanoria"
 versioninfo = "manuscript (Initial version: Mar 2019. Revised: Feb 2020.)"
 journalno = "2"
-absinfo = "We study payoff maximization in closed networks with fixed number of supplies."
+absinfo = "We "
 
 # Publication type.
 # Legend:
