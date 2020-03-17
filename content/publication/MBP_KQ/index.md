@@ -8,7 +8,7 @@ authors = ["Y. Kanoria", "Pengyu Qian"]
 authorinfo = "with Y. Kanoria"
 versioninfo = "manuscript (Initial version: Mar 2019. Revised: Feb 2020.)"
 journalno = "2"
-absinfo = "We study payoff maximization in closed networks with fixed number of supplies. Demand arrives stochastically, and serving a demand relocates a supply from the demand's origin to its destination. We consider controls including admission, pricing, and assignment. We introduce a novel family of Mirror Backpressure (MBP) policies."
+absinfo = "We study payoff maximization in closed networks with fixed number of supplies."
 
 # Publication type.
 # Legend:
