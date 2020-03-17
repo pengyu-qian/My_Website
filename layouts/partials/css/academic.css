@@ -2035,7 +2035,7 @@ div.alert a {
   border-color: #ff3860;
 }
 
-p.note {
+div.note {
     display: block;
 	  font-family: Monaco,Consolas,"Lucida Console",monospace;
     font-size: 14px;
