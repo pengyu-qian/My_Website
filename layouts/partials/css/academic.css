@@ -2024,27 +2024,30 @@ div.alert a {
 }
 
 .alert-note {
-  /*
   color: #12537e;
   background-color: #f6fbfe;
   border-color: #209cee;
-  */
-  display: block;
-	font-family: Monaco,Consolas,"Lucida Console",monospace;
-    padding: 9.5px;
-    margin: 0 0 10px;
-    font-size: 13px;
-    line-height: 1.42857143;
-    color: #333;
-    background-color: #f5f5f5;
-    border: 1px solid #ccc;
-    border-radius: 4px;
 }
 
 .alert-warning {
   color: #cd0930;
   background-color: #fff5f7;
   border-color: #ff3860;
+}
+
+p.note {
+    display: block;
+	font-family: Monaco,Consolas,"Lucida Console",monospace;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 /*************************************************
