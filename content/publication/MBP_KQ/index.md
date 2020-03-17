@@ -8,7 +8,6 @@ authors = ["Y. Kanoria", "Pengyu Qian"]
 authorinfo = "with Y. Kanoria"
 versioninfo = "manuscript (Initial version: Mar 2019. Revised: Feb 2020.)"
 journalno = "2"
-absinfo = "We study payoff maximization in closed networks with fixed number of supplies. Demand arrives stochastically, and serving a demand relocates a supply from the demand's origin to its destination. We consider controls including admission, pricing, and assignment. We introduce a novel family of Mirror Backpressure (MBP) policies. MBP is simple and practical, and crucially does not require knowledge of the demand arrival rates. We show that MBP loses at most O(K/T+1/K) payoff per customer relative to the optimal policy that knows the demand arrival rates, where K is the number of supplies and T is the number of demands. Simulation results in a realistic ridehailing environment support our theoretical findings."
 
 # Publication type.
 # Legend:
