@@ -97,9 +97,11 @@
     {{ end }}
     
     {{ if $item.Params.absinfo }}
+    {{% alert note %}}
 	  <div style="margin-left:20px;">
 	  <font size="4">Abstract: {{ $item.Params.absinfo }}</font>
 	  </div>
+    {{% /alert %}}
 	  {{ end }}
         
 
