@@ -1995,6 +1995,7 @@ div.alert div > :last-child {
   margin-bottom: 0;
 }
 
+/*
 div.alert > div:first-child::before {
   position: absolute;
   top: -0.5rem;
@@ -2014,6 +2015,7 @@ div.alert-warning > div:first-child::before {
   color: #ff3860;
   content: '\f071';
 }
+*/
 
 div.alert a {
   color: currentColor;
