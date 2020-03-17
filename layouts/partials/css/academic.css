@@ -2039,6 +2039,9 @@ p.note {
     display: block;
 	  font-family: Monaco,Consolas,"Lucida Console",monospace;
     font-size: 14px;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    line-height: 1.42857143;
     color: #333;
     word-break: normal;
     word-wrap: break-all;
