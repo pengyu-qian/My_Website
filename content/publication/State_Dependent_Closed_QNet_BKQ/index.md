@@ -11,7 +11,7 @@ journalinfo = "Operations Research"
 confinfo = "ACM SIGMETRICS"
 confyear = "2018"
 journalno = "1"
-absinfo = $\mathcal{A}$
+absinfo = "Abstract"
 
 # Publication type.
 # Legend:
