@@ -2036,6 +2036,7 @@ div.alert a {
 }
 
 p.note {
+    display: block;
 	  font-family: Monaco,Consolas,"Lucida Console",monospace;
     padding: 9.5px;
     margin: 0 0 10px;
