@@ -2038,7 +2038,7 @@ div.alert a {
 div.note {
     display: block;
 	  /* font-family: Monaco,Consolas,"Lucida Console",monospace; */
-    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-family: inherit;
     font-size: 17px;
     padding: 9.5px;
     margin: 0 0 10px;
