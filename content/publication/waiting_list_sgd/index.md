@@ -1,6 +1,6 @@
 +++
 title = "Which Random Matching Markets Exhibit a Stark Effect of Competition?"
-date = 2020-02-12
+date = 2020-02-13
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["I. Ashlagi", "J. Leshno", "Pengyu Qian", "A. Saberi"]
