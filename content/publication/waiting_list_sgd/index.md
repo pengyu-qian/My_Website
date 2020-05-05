@@ -1,5 +1,5 @@
 +++
-title = "Which Random Matching Markets Exhibit a Stark Effect of Competition?"
+title = "Queue Lengths as Constantly Adapting Prices: Allocative Efficiency Under Random Dynamics"
 date = 2020-02-13
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
