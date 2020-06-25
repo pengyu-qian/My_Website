@@ -25,6 +25,7 @@ email = ""
 interests = [
   "Control of Stochastic Networks",
   "Stochastic Modeling of Marketplaces",
+  "Market Design",
   "Sharing Economy"
 ]
 
@@ -79,6 +80,6 @@ user_groups = ["Researchers", "Visitors"]
 
 I am a 5th year Ph.D. student in the Decision, Risk and Operations division at Columbia Business School. I am very fortunate to be advised by [Yash Kanoria](http://www.columbia.edu/~yk2577/).
 
-My research interest lies in the optimal control of **stochastic networks**, including those that arise in **marketplaces** such as ride-hailing platforms.
+My research interest lies in the optimal control of **stochastic networks** including those that arise in **marketplaces**, and **market design**.
 
 You can reach me at _pq2124 at columbia dot edu_. My office is Uris 4V.
