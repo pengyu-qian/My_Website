@@ -105,9 +105,9 @@
     
     
     {{ if $item.Params.absinfo }}
-    {{%expand%}}
+    {{<expand>}}
     {{ $item.Params.absinfo }}
-    {{% /expand%}}
+    {{</expand>}}
 	  {{ end }}
     
     
