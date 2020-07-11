@@ -1,11 +1,19 @@
 {{ $item := . }}
 
+{{ $microdata_type := "CreativeWork" }}
+{{ $show_authors_only := false }}{{/* Show authors only or full metadata? */}}
+{{ $show_buttons := false }}
 
 {{/* Dynamic view adjusts to content type. */}}
-{{ $show_buttons := false }}
-{{ if eq $item.Type "talk" }}
+{{ if eq $item.Type "post" }}
+  {{ $microdata_type = "BlogPosting" }}
+{{ else if eq $item.Type "talk" }}
+  {{ $microdata_type = "Event" }}
+  {{ $show_authors_only = true }}
   {{ $show_buttons = true }}
 {{ else if eq $item.Type "publication" }}
+  {{ $microdata_type = "ScholarlyArticle" }}
+  {{ $show_authors_only = true }}
   {{ $show_buttons = true }}
 {{ end }}
 
@@ -15,56 +23,144 @@
   {{ $summary = $item.Params.summary | markdownify | emojify }}
 {{ else if .Params.abstract }}
   {{ $summary = .Params.abstract | markdownify | emojify }}
-{{ else if $item.Summary }}
+{{ else if $item.Truncated }}
   {{ $summary = $item.Summary }}
 {{ end }}
 
-<div class="card-simple">
+<!-- <div class="media stream-item" itemscope itemtype="http://schema.org/{{$microdata_type}}"> -->
+{{ if eq $item.Type "publication" }}
+<div>
+  <div>
+  <!-- <div class="media-body"> -->
 
-  {{ if eq $item.Type "talk" }}
-  <div class="article-metadata">
-    {{ if $item.Params.authors }}
-    <div>
-      {{ partial "page_metadata_authors" $item }}
+    <div style="padding-left:20px;text-indent:-20px;">
+    <font size="4">
+     <!-- <h4 class="article-title mb-0 mt-0" itemprop="name"> -->
+    <b>{{ $item.Params.journalno }}.</b> <a href="{{ $item.Params.url_pdf }}" style="color:rgb(0, 114, 206);">{{ $item.Title }}</a>
+    </font>
+    </div>
+	
+	<div style="margin-left:20px;">
+	<font size="4">{{ $item.Params.authorinfo }}, {{ $item.Params.versioninfo }} <b>{{ $item.Params.journalinfo }}</b></font>
+	</div>
+	
+	{{ if $item.Params.confinfo }}
+	<div style="margin-left:20px;">
+	<font size="4">Preliminary version: <i>{{ $item.Params.confinfo }}</i> {{ $item.Params.confyear }}</font>
+	</div>
+	{{ end }}
+    
+	
+    {{ with $summary }}
+    <div class="article-style" itemprop="articleBody">
+      {{ . | truncate 135 }}
     </div>
     {{ end }}
-    <span>
-      {{ partial "functions/get_event_dates" $item }}
-    </span>
-    {{ with $item.Params.location }}
-    <span class="middot-divider"></span>
-    <span>{{ . }}</span>
-    {{ end }}
-  </div>
-  {{ else }}
-    {{ partial "page_metadata" (dict "page" $item "is_list" 1) }}
-  {{ end }}
+	
+	
+	<!--
+    <div class="stream-meta article-metadata">
 
-  {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
-  {{ $anchor := $item.Params.image.focal_point | default "Smart" }}
-  {{ with $resource }}
-  {{ $image := .Fill (printf "918x517 q90 %s" $anchor) }}
-  <a href="{{ $item.RelPermalink }}">
-      <img src="{{ $image.RelPermalink }}" class="article-banner" alt="{{ $item.Title }}">
-  </a>
-  {{end}}
+      {{ if eq $item.Type "talk" }}
+      <div>
+        <span itemprop="startDate">
+          {{ $date := $item.Date }}
+          {{ (time $date).Format $.Site.Params.date_format }}
+          {{ if not $item.Params.all_day }}
+            {{ (time $date).Format ($.Site.Params.time_format | default "3:04 PM") }}
+            {{ with $item.Params.date_end }}
+            &mdash; {{ (time .).Format ($.Site.Params.time_format | default "3:04 PM") }}
+            {{ end }}
+          {{ end }}
+        </span>
+        {{ with $item.Params.location }}
+        <span class="middot-divider"></span>
+        <span itemprop="location">{{ . }}</span>
+        {{ end }}
+      </div>
+      {{ end }}
 
-  <h3 class="article-title mb-1 mt-3">
-    <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>
-  </h3>
-
-  {{ with $summary }}
-  <a href="{{ $item.RelPermalink }}" class="summary-link">
-    <div class="article-style">
-      <p>{{.}}</p>
+      {{ if and $show_authors_only $item.Params.authors }}
+      <div itemprop="author">
+        {{ partial "page_metadata_authors" $item }}
+      </div>
+      {{ else if not $show_authors_only }}
+        {{ partial "page_metadata" (dict "content" $item "is_list" 1) }}
+      {{ end }}
     </div>
-  </a>
-  {{ end }}
+	-->
 
-  {{ if $show_buttons }}
-  <div class="btn-links">
-    {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+    {{ if $show_buttons }}
+    <div class="btn-links" style="margin-left:20px;">
+      {{ partial "page_links" (dict "content" $item "is_list" 1) }}
+    </div>
+    {{ end }}
+    
+    {{ if $item.Params.absinfo }}
+    <div class="note" style="margin-left:20px;">
+	  <b>Abstract</b>: {{ $item.Params.absinfo }}
+    </div>
+	  {{ end }}
+        
+
   </div>
-  {{ end }}
-
+  <div class="ml-3">
+    {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
+    {{ with $resource }}
+    {{ $image := .Resize "150x" }}
+    <a href="{{ $item.RelPermalink }}">
+      <img src="{{ $image.RelPermalink }}" itemprop="image">
+    </a>
+    {{end}}
+  </div>
+  <p style="height: 10px"></p>
 </div>
+{{ end }}
+
+
+{{ if eq $item.Type "confpubs" }}
+<div>
+  <div>
+  <!-- <div class="media-body"> -->
+
+    <font size="4">
+     <!-- <h4 class="article-title mb-0 mt-0" itemprop="name"> -->
+      <a href="{{ $item.Params.url_conf }}" style="color:rgb(0, 128, 255);">{{ $item.Title }}</a>
+    </font>
+	
+	<div>
+	<font size="4">
+	<i>{{ $item.Params.authorinfo }}</i>, <b>{{ $item.Params.confname }}</b>, {{$item.Params.confloc}}, {{ $item.Params.conftime }}
+	</font>
+	</div>
+	
+	<div>
+	<font size="4">
+	(accpeted as full paper; appeared as extended abstract)
+	</font>
+	</div>
+	
+    
+
+    {{ if $show_buttons }}
+    <div class="btn-links">
+      {{ partial "page_links" (dict "content" $item "is_list" 1) }}
+    </div>
+    {{ end }}
+
+  </div>
+  <div class="ml-3">
+    {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
+    {{ with $resource }}
+    {{ $image := .Resize "150x" }}
+    <a href="{{ $item.RelPermalink }}">
+      <img src="{{ $image.RelPermalink }}" itemprop="image">
+    </a>
+    {{end}}
+  </div>
+  <p style="height: 10px"></p>
+</div>
+
+{{ end }}
+
+
