@@ -97,9 +97,7 @@
     {{ end }}
     
       {{ if $item.Params.absinfo }}
-    <div class="note" style="margin-left:20px;">
-	  <b>Abstract</b>: {{ $item.Params.absinfo }}
-    </div>
+    <div class="collapse"><pre class="verbatim">{{ $item.Params.absinfo }}</pre></div>
 	  {{ end }}
     
         
