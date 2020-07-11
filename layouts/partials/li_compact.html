@@ -106,9 +106,7 @@
     
     {{ if $item.Params.absinfo }}
     {{%expand%}}
-    <div class="note" style="margin-left:20px;">
-	  <b>Abstract</b>: {{ $item.Params.absinfo }}
-    </div>
+    {{ $item.Params.absinfo }}
     {{% /expand%}}
 	  {{ end }}
     
