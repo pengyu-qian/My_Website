@@ -33,13 +33,21 @@
   <div>
   <!-- <div class="media-body"> -->
 
+    
+    
+    
+    
+    
+    <!-- Title of Publication -->
     <div style="padding-left:20px;text-indent:-20px;">
     <font size="4">
      <!-- <h4 class="article-title mb-0 mt-0" itemprop="name"> -->
-    <b>{{ $item.Params.journalno }}.</b> <a href="{{ $item.Params.url_pdf }}" style="color:rgb(0, 38, 153);">{{ $item.Title }}</a>
+    <b>{{ $item.Params.journalno }}.</b> <a href="{{ $item.Params.url_pdf }}" style="color:rgb(0, 38, 153);"><u>{{ $item.Title }}</u></a>
     </font>
     </div>
 	
+    
+    
 	<div style="margin-left:20px;">
 	<font size="4">{{ $item.Params.authorinfo }}, {{ $item.Params.versioninfo }} <b>{{ $item.Params.journalinfo }}</b></font>
 	</div>
