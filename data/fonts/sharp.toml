@@ -5,9 +5,9 @@ name = "sharp"
 google_fonts = "PT+Serif|Source+Serif+Pro"
 
 # Font families
-heading_font = "Source Serif Pro"
+heading_font = "PT Serif"
 body_font = "PT Serif"
-nav_font = "Source Serif Pro"
+nav_font = "PT Serif"
 mono_font = "PT Serif"
 
 # Font size
