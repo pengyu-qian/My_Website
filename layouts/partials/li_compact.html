@@ -1,3 +1,63 @@
+<style>
+.pub div {
+	font-size: 1em !important;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.pub pre {
+	margin:0px;
+	border:0px;
+}
+
+.collapse {
+    display: none;
+}
+
+.collapse.in {
+    display: block;
+}
+
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition-property: height, visibility;
+  transition-property: height, visibility;
+  -webkit-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+}
+
+
+pre, .pub .note {
+    display: block;
+	font-family: Monaco,Consolas,"Lucida Console",monospace;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
 {{ $item := . }}
 
 {{ $microdata_type := "CreativeWork" }}
