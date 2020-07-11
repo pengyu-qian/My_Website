@@ -150,6 +150,8 @@ sharing = true
   #   1: Academic (built-in)
   #   2: Algolia (https://www.algolia.com)
   engine = 0
+  
+  
 
   # Configuration of Algolia search engine.
   # Paste the values from your Algolia dashboard.
@@ -158,3 +160,16 @@ sharing = true
     api_key = ""
     index_name = ""
     show_logo = false
+    
+    
+    
+    ############################
+## Code folding
+############################
+
+# Set to true to disable code folding
+disable_codefolding = false
+# Set to "hide" or "show" all codes by default
+codefolding_show = "show"
+# Set to true to exclude the "Show/hide all" button
+codefolding_nobutton = false
