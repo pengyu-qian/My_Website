@@ -97,11 +97,31 @@
     {{ end }}
     
     
+    
+    
+    
+    
+    
+    
+    
     {{ if $item.Params.absinfo }}
+    {{%expand%}}
     <div class="note" style="margin-left:20px;">
 	  <b>Abstract</b>: {{ $item.Params.absinfo }}
     </div>
+    {{% /expand%}}
 	  {{ end }}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
   </div>
   <div class="ml-3">
