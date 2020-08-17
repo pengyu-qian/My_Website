@@ -1,5 +1,5 @@
 +++
-title = "Queue Lengths as Constantly Adapting Prices: Allocative Efficiency Under Random Dynamics"
+title = "Price Discovery and Efficiency in Waiting Lists: A Connection to Stochastic Gradient Descent"
 date = 2020-02-13
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
