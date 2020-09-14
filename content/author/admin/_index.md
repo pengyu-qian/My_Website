@@ -23,8 +23,7 @@ email = ""
 
 # List (academic) interests or hobbies
 interests = [
-  "Control of Stochastic Networks",
-  "Stochastic Modeling of Marketplaces",
+  "Stochastic Networks",
   "Market Design",
   "Sharing Economy"
 ]
@@ -84,6 +83,6 @@ I will be on the **2020-2021 academic job market**.
 
 <!-- My research interest lies in the optimal control of **stochastic networks** that arise in **marketplaces**, and **market design**. -->
 
-My research focuses on the analysis and design of algorithms/mechanisms that are practical and provably good, for dynamic networked marketplaces, using tools from applied probability and modern optimization.
+My research focuses on the analysis and design of algorithms/mechanisms that are practical and provably near-optimal for dynamic networked marketplaces, using tools from applied probability and modern optimization.
 
 You can reach me at _pq2124 at columbia dot edu_.
