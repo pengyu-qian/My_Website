@@ -78,7 +78,9 @@ user_groups = ["Researchers", "Visitors"]
 
 +++
 
-I am a final year Ph.D. student in the Decision, Risk and Operations division at Columbia Business School. I am very fortunate to be advised by [Yash Kanoria](http://www.columbia.edu/~yk2577/). I will be on the **2020-2021 academic job market**.
+I am a final year Ph.D. student in the Decision, Risk and Operations division at Columbia Business School. I am very fortunate to be advised by [Yash Kanoria](http://www.columbia.edu/~yk2577/). 
+
+I will be on the **2020-2021 academic job market**.
 
 My research interest lies in the optimal control of **stochastic networks** that arise in **marketplaces**, and **market design**.
 
