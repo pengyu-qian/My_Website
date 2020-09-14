@@ -70,7 +70,7 @@ url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-# links = [{name = "Custom Link", url = "http://example.org"}]
+links = [{name = "Al Roth's Blog Post", url = "http://marketdesigner.blogspot.com/2020/08/unbalanced-matching-markets-with-short.html"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
