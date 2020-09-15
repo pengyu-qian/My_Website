@@ -1,5 +1,5 @@
 +++
-title = "Blind Dynamic Control of a Closed Network via Mirror Backpressure"
+title = "Blind Dynamic Resource Allocation in Closed Networks via Mirror Backpressure"
 date = 2019-03-07
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
