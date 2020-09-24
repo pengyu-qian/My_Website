@@ -26,7 +26,7 @@ interests = [
   "Online Algorithms",
   "Stochastic Networks",
   "Market Design",
-  "Sharing Economy"
+  "Platforms"
 ]
 
 # Organizational groups that you belong to (for People widget)
