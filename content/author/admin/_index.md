@@ -74,7 +74,7 @@ user_groups = ["Researchers", "Visitors"]
 # [[social]]
    icon = "cv"
    icon_pack = "ai"
-   link = "pdf/pengyu_vitae_2020sep.pdf"
+   link = "https://pengyuqian.netlify.app/pdf/pengyu_vitae_2020sep.pdf"
 
 +++
 I will be on the **2020-2021 academic job market**.
