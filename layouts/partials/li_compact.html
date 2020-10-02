@@ -53,9 +53,13 @@
 	</div>
 	
 	{{ if $item.Params.confinfo }}
-	<div style="margin-left:20px;">
-	<font size="4">Preliminary version: {{ $item.Params.confinfo }} (<b>{{ $item.Params.confyearinfo }}</b>) </font>
-	</div>
+	  <div style="margin-left:20px;">
+	  <font size="4">Preliminary version: {{ $item.Params.confinfo }} (<b>{{ $item.Params.confyearinfo }}</b>) </font>
+	  </div>
+  {{ if $item.Params.conffullname }}
+    <div style="margin-left:20px;">
+	  <font size="4">Preliminary version: <b>{{ $item.Params.conffullname }}</b> </font>
+	  </div>
 	{{ end }}
     
 	
