@@ -2,6 +2,7 @@
 title = "Blind Dynamic Resource Allocation In Closed Networks Via Mirror Backpressure"
 session = "MD27,  Networks, Markets, and Platforms, Virtual Room 27."
 time = "Monday, November 9, 4:30 PM - 5:45 PM"
+talkno = "1"
 date = 2020-02-13
 
 
