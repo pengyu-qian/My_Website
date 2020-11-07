@@ -2,6 +2,7 @@
 title = "Which Random Matching Markets Exhibit a Short-Side Advantage?"
 session = "MC27, Matching Models for Service Systems, Virtual Room 27."
 time = "Monday, November 9, 2:00 PM - 3:15 PM"
+talkno = "2"
 date = 2020-02-13
 
 
