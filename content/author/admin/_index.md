@@ -77,7 +77,7 @@ user_groups = ["Researchers", "Visitors"]
    link = "pdf/pengyu_vitae_2020sep.pdf"
 
 +++
-I am on the **2020-2021 academic job market**. I will be giving the following talks at the virtual INFORMS 2020 Annual Meeting:
+I am on the **2020-2021 academic job market**. Schedule of my talks at the virtual INFORMS 2020 Annual Meeting is [here](https://pengyuqian.netlify.app/#talks).
 
 I am a final year Ph.D. student in the Decision, Risk and Operations division at Columbia Business School. I am very fortunate to be advised by [Yash Kanoria](http://www.columbia.edu/~yk2577/). 
 
