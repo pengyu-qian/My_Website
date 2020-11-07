@@ -138,22 +138,22 @@
   <div>
   <!-- <div class="media-body"> -->
 
+    
+    <!-- Title of Publication -->
+    <div style="padding-left:20px;text-indent:-20px;">
     <font size="4">
-     <!-- <h4 class="article-title mb-0 mt-0" itemprop="name"> -->
-      <a href="{{ $item.Params.url_conf }}" style="color:rgb(0, 128, 255);">{{ $item.Title }}</a>
+    <b>Title</b>: {{ $item.Params.title }} </font>
     </font>
-	
-	<div>
-	<font size="4">
-	<i>{{ $item.Params.authorinfo }}</i>, <b>{{ $item.Params.confname }}</b>, {{$item.Params.confloc}}, {{ $item.Params.conftime }}
-	</font>
-	</div>
-	
-	<div>
-	<font size="4">
-	(accpeted as full paper; appeared as extended abstract)
-	</font>
-	</div>
+    </div>
+
+	  <div style="margin-left:20px;">
+	  <font size="4"><b>Session</b>: {{ $item.Params.session }} </font>
+	  </div>
+
+    <div style="margin-left:20px;">
+	  <font size="4"><b>Time</b>: {{ $item.Params.time }} </font>
+	  </div>
+
 	
     
 
