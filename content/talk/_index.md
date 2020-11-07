@@ -1,5 +1,5 @@
 +++
-title = "Recent & Upcoming Talks"
+title = "INFORMS 2020 Talks"
 
 # View.
 #   1 = List
