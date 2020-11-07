@@ -77,7 +77,12 @@ user_groups = ["Researchers", "Visitors"]
    link = "pdf/pengyu_vitae_2020sep.pdf"
 
 +++
-I will be on the **2020-2021 academic job market**.
+I am on the **2020-2021 academic job market**. I will be giving the following talks at the virtual INFORMS 2020 Annual Meeting:
+
+1. Blind Dynamic Resource Allocation In Closed Networks Via Mirror Backpressure
+Session: WC21. Data Driven Decision Making
+       Time: Wednesday, November 11, 2:00 PM - 3:15 PM (1st of 5)
+2.
 
 I am a final year Ph.D. student in the Decision, Risk and Operations division at Columbia Business School. I am very fortunate to be advised by [Yash Kanoria](http://www.columbia.edu/~yk2577/). 
 
