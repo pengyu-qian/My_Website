@@ -30,7 +30,7 @@
   weight = 40
   
 [[main]]
-  name = "Upcoming Talks"
+  name = "INFORMS 2020"
   url = "#talks"
   weight = 38
 
