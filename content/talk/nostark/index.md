@@ -1,16 +1,12 @@
 +++
-title = "Price Discovery and Efficiency in Waiting Lists: A Connection to Stochastic Gradient Descent"
+title = "Which Random Matching Markets Exhibit a Short-Side Advantage?"
+session = "MC27, Matching Models for Service Systems, Virtual Room 27."
+time = "Monday, November 9, 2:00 PM - 3:15 PM"
 date = 2020-02-13
 
-# Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["I. Ashlagi", "J. Leshno", "Pengyu Qian", "A. Saberi"]
 
-authorinfo = "with I. Ashlagi, J. Leshno, and A. Saberi"
-versioninfo = "manuscript coming soon!"
-confinfo = "ACM Conference on Economics and Computation"
-confyearinfo = "EC 2020"
-journalno = "4"
-absinfo = "Waiting costs function as prices in waiting lists. These prices, the waiting costs for each item, are determined endogenously and adjust according to the stochastic arrivals and departures of agents. We study the allocative efficiency under such dynamically adjusting prices by drawing a connection between this price adjustment process and the stochastic gradient descent optimization algorithm. We show that the loss due to price fluctuations is bounded by the granularity of price changes, and that this bound is essentially tight. Our results show that a simple price adjustment heuristic can perform well, but may be slow to adjust to changes in demand because of a trade-off between the speed of adaptation and loss from price fluctuations."
+# Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
+
 
 # Publication type.
 # Legend:
