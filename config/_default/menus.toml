@@ -31,7 +31,7 @@
   
 [[main]]
   name = "Upcoming Talks"
-  url = "/talks/"
+  url = "#talks"
   weight = 38
 
 # [[main]]
