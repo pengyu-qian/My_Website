@@ -83,6 +83,6 @@ I am a final year Ph.D. student in the Decision, Risk and Operations division at
 
 <!-- My research interest lies in the optimal control of **stochastic networks** that arise in **marketplaces**, and **market design**. -->
 
-My research studies networked marketplaces with an emphasis on online decision-making in such marketplaces, using tools from applied probability and modern optimization. I am interested in foundational theoretical models motivated by problems in revenue management and pricing, and matching markets. My research emphasizes algorithms and mechanisms that not only have good theoretical guarantees, but also are simple, robust, and hence practical for real-world systems.
+My research studies networked marketplaces with an emphasis on online decision-making, using tools from applied probability and modern optimization. I am interested in foundational theoretical models motivated by problems in revenue management and pricing, and matching markets. My research emphasizes algorithms and mechanisms that not only have good theoretical guarantees, but also are simple, robust, and hence practical for real-world systems.
 
 You can reach me at _pq2124 at columbia dot edu_.
