@@ -6,7 +6,8 @@ date = 2019-03-07
 authors = ["Y. Kanoria", "Pengyu Qian"]
 
 authorinfo = "with Y. Kanoria"
-versioninfo = "submitted."
+versioninfo = "major revision in"
+journalinfo = "Management Science"
 confinfo = "ACM Conference on Economics and Computation"
 confyearinfo = "EC 2020"
 journalno = "2"
