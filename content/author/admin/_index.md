@@ -9,11 +9,11 @@ authors = ["admin"]
 superuser = true
 
 # Role/position
-role = "Ph.D. Student of Decision, Risk, and Operations"
+role = "Ph.D. Student"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Graduate School of Business, Columbia University", url = "https://www8.gsb.columbia.edu/faculty-research/divisions/decision-risk-operations" } ]
+organizations = [ { name = "Columbia Business School", url = "https://www8.gsb.columbia.edu/faculty-research/divisions/decision-risk-operations" } ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = ""
@@ -23,7 +23,7 @@ email = ""
 
 # List (academic) interests or hobbies
 interests = [
-  "Online Algorithms",
+  "Online Decision-Making",
   "Stochastic Networks",
   "Market Design",
   "Platforms"
@@ -35,8 +35,8 @@ user_groups = ["Researchers", "Visitors"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "Ph.D. in Decision, Risk and Operations (expected)"
-  institution = "Columbia University"
+  course = "Ph.D. in Operations Management (expected)"
+  institution = "Columbia Business School"
   year = 2021
 
 [[education.courses]]
@@ -77,7 +77,7 @@ user_groups = ["Researchers", "Visitors"]
    link = "pdf/pengyu_vitae_2020sep.pdf"
 
 +++
-I am on the **2020-2021 academic job market**. Schedule of my talks at the virtual INFORMS 2020 Annual Meeting is [here](https://pengyuqian.netlify.app/#talks).
+I am on the **2020-2021 academic job market**.
 
 I am a final year Ph.D. student in the Decision, Risk and Operations division at Columbia Business School. I am very fortunate to be advised by [Yash Kanoria](http://www.columbia.edu/~yk2577/). 
 
