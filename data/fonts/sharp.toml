@@ -12,4 +12,4 @@ mono_font = "PT Serif"
 
 # Font size
 font_size = "18"
-font_size_small = "14"
+font_size_small = "16"
