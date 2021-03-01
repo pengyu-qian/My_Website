@@ -2,13 +2,13 @@
 name = "sharp"
 
 # Optional Google font URL
-google_fonts = "PT+Serif|Source+Serif+Pro"
+google_fonts = "PT+Sans|Source+Serif+Pro"
 
 # Font families
-heading_font = "PT Serif"
-body_font = "PT Serif"
-nav_font = "PT Serif"
-mono_font = "PT Serif"
+heading_font = "PT Sans"
+body_font = "PT Sans"
+nav_font = "PT Sans"
+mono_font = "PT Sans"
 
 # Font size
 font_size = "18"
