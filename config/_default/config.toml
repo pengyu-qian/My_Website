@@ -33,10 +33,10 @@ enableGitInfo = false
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
-hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
+hasCJKLanguage = true  # Set `true` for Chinese/Japanese/Korean languages.
 defaultContentLanguageInSubdir = false
 
-paginate = 10  # Number of items per page in paginated lists.
+paginate = 100  # Number of items per page in paginated lists.
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
@@ -49,7 +49,7 @@ preserveTaxonomyNames = true
 # Configure BlackFriday Markdown rendering.
 #   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
 [blackfriday]
-  hrefTargetBlank = true  # `true` opens external links in a new tab. See https://github.com/gohugoio/hugo/issues/2424
+  hrefTargetBlank = false  # `true` opens external links in a new tab. See https://github.com/gohugoio/hugo/issues/2424
 	angledQuotes = false
 	latexDashes = true
   extensions = ["backslashLineBreak"]
