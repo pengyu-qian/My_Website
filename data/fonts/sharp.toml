@@ -2,7 +2,7 @@
 name = "sharp"
 
 # Optional Google font URL
-google_fonts = "PT+Sans|Source+Serif+Pro"
+google_fonts = "PT+Sans"
 
 # Font families
 heading_font = "PT Sans"
