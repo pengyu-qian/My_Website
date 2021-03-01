@@ -29,10 +29,10 @@
   url = "#working_papers"
   weight = 40
   
-[[main]]
-  name = "INFORMS 2020"
-  url = "#talks"
-  weight = 50
+# [[main]]
+#  name = "INFORMS 2020"
+#  url = "#talks"
+#  weight = 50
 
 # [[main]]
 #  name = "Tutorials"
