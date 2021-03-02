@@ -25,9 +25,8 @@
   
   
 [[main]]
-  name = "Working Papers"
-  parent = "pubs"
-  url = "publications/working_papers"
+  name = "Publications"
+  url = "publications/"
   weight = 40
   
 # [[main]]
